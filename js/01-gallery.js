@@ -38,7 +38,6 @@ function showesOriginalImg(container) {
 function onPressingEsc(e, instance) {
   if (e.key === 'Escape' && basicLightbox.visible()) {
     instance.close();
-    console.log('allready');
   };
 };
 
